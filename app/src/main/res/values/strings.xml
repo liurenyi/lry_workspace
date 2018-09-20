@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="open_bluetooth">打开蓝牙</string>
+    <string name="close_bluetooth">关闭蓝牙</string>
+    <string name="no_support_bluetooth">设备不支持蓝牙</string>
+    <string name="light_sensor_value">光感数值</string>
+    <string name="button_sound_record_file_list">录音文件</string>
+    <string name="button_record_start">开始录音</string>
+    <string name="button_record_pause">暂停录音</string>
+    <string name="button_record_stop">停止录音</string>
+    <string name="text_show_timer">00:00</string>
+</resources>

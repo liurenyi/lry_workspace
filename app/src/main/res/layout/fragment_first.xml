@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_bluetooth"
+            style="@style/radiobutton_1"
+            android:background="#ccdd55"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="蓝牙测试" />
+
+        <RadioButton
+            android:id="@+id/radio_light_sensor"
+            style="@style/radiobutton_1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="光感测试" />
+
+        <RadioButton
+            android:id="@+id/radio_package_info"
+            style="@style/radiobutton_1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="应用信息" />
+
+        <RadioButton
+            android:id="@+id/radio_sound_record"
+            style="@style/radiobutton_1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="录音测试" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_5"
+            style="@style/radiobutton_1"
+            android:background="#cc55dd"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="蓝牙测试" />
+
+        <RadioButton
+            android:id="@+id/radio_6"
+            style="@style/radiobutton_1"
+            android:background="#ccdd99"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="XX测试" />
+
+        <RadioButton
+            android:id="@+id/radio_7"
+            style="@style/radiobutton_1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="XX测试" />
+
+        <RadioButton
+            android:id="@+id/radio_8"
+            style="@style/radiobutton_1"
+            android:button="@null"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="XX测试" />
+
+    </RadioGroup>
+
+</LinearLayout>
